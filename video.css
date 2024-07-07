@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  display: grid;
+  height: 100vh;
+  place-items: center;
+		  background-color: transpatent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("Video/Html/DvD/mag.jpg") #000;
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.Contenedor{
+width: 1050px;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 30px;
+overflow: hidden;
+}
+
+
+h1{
+  color: gold;
+  border: 2px solid white;
+     backdrop-filter: blur(4px);
+     -webkit-backdro-filter: blur(4px);
+  text-align: center;
+  font-family: 'pacifico', cursive;
+}
+
+video{
+  width: 90%;
+  height: auto;
+  margin: 10px 20px;
+  box-shadow: 0 4px 8px 0 blueviolet, 0 6px 20px 0 white;
+  float: flex;
+  width: 390px;
+  border: 2px solid white;
+}
+
